@@ -31,9 +31,9 @@ https://github.com/Skywave008/zemogatest.git
 ## Execute the application
 
 - Navigate to the **zemogatest** folder and execute
-> ./gradlew clean build 
+>**./gradlew clean build**
 > and then 
-> ./gradlew bootRun
+> **./gradlew bootRun**
 
 ## Open the application
 
