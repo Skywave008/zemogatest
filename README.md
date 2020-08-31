@@ -48,22 +48,37 @@ Now you will see the Portfolio page with the required information
 The application exposes two enpoints:
 
 >**Path:** /getPortfolio
->**Produces:**: application/json
+
+>**Produces:** application/json
+
 >**Description:** Gets the portfolio data for an user by id
+
 >**Method:** GET
+
 >**Parameters:**
+
 >**- id:** Required=true, type= Integer
 
 and
+
 >**Path:** /updatePortfolio
->**Produces:**: application/json
+
+>**Produces:** application/json
+
 >**Description:** Allows the consumer to update the portfolio information
+
 >**Method:** POST
+
 >**Parameters:**
+
 >**- id:** Required=true, type= Integer
+
 >**- description:** Required=true, type= String
+
 >**- image:** Required=true, type= String
+
 >**- twitterUserName:** Required=true, type= String
+
 >**- title:** Required=true, type= String
 
 For the last one you will need to use a tool as Postman to call the API with the POST method
