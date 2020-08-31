@@ -59,6 +59,8 @@ The application exposes two enpoints:
 
 >**- id:** Required=true, type= Integer
 
+>Valid sample data: id=634377, id=9999, id= 444
+
 and
 
 >**Path:** /updatePortfolio
@@ -80,6 +82,8 @@ and
 >**- twitterUserName:** Required=true, type= String
 
 >**- title:** Required=true, type= String
+
+>Id to update: id=634377
 
 For the last one you will need to use a tool as Postman to call the API with the POST method
 
