@@ -1,4 +1,3 @@
-# zemogatest
 PORTFOLIO JAVA WEB APP SEBASTIAN MARTINEZ
 
 # Technologies used
